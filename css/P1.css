@@ -1,0 +1,51 @@
+body {
+	font-family: 'Playfair Display', serif;
+	color: #F17A20;
+	font-weight: 300;
+}
+
+.text-muted {
+	color: #823E6D;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+hr.heart { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #823E6D; 
+  border-width: 2px 0 0 0; 
+  border-radius: 20px; 
+  text-align: center;
+} 
+hr.heart:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #823E6D; 
+  border-width: 0 0 2px 0; 
+  border-radius: 20px; 
+}
+
+hr.heart:after {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: white;
+	color: #823E6D;
+	font-size: 20px;
+}
